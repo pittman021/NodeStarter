@@ -1,0 +1,41 @@
+<% include ./partials/header.ejs %>
+    <div class="hero-body">
+
+    <div class="container has-text-centered">
+
+      <div class="column is-4 is-offset-4">
+
+        <h3 class="title has-text-grey">Login</h3>
+          <div class="box">
+
+            <form action="/login" method="POST">
+              <div class="field">
+                <div class="control">
+                  <label>Username</label>
+                    <input type="text" name="username" class="input"/>
+                    <br/>
+                </div>
+              </div>
+              <div class="field">
+
+                  <div class="control">
+                    <label>Password</label>
+                    <input type="password" name="password" class="input" />
+                  </div>
+                </div>
+                  <div>
+                    <input type="submit" value="Submit" class="button is-primary"/>
+                  </div>
+                </form>
+
+    </div>
+    <p class="has-text-grey">
+      <a href="/signup">Signup</a>
+
+    </p>
+    </div>
+    </div>
+
+    </div>
+
+    <% include ./partials/footer.ejs %>

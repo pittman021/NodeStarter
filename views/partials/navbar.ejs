@@ -1,0 +1,48 @@
+<div class="hero-head">
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+			<img src="/images/garden_64_2.png" class="navbar-item" />
+      <a role="button" id="burger" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-turbolinks-permanent>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="navbar-menu">
+
+      <div class="navbar-end">
+        <div class="tabs is-right">
+          <ul>
+              <li><a href="/logout", class="navbar-item is-active">Logout</a></li>
+              </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+    </nav>
+  </div>
+
+
+  <section class="container pages_navbar">
+  	<div class="tabs is-medium pages-navbar-tabs">
+  		<ul>
+  			<li id="contacts"><a href="/contacts">Contacts</a></li>
+  			<li id="contacts"><a href="/lists">Lists</a></li>
+  		</ul>
+  	</div>
+
+    <% if(error && error.length > 0) { %>
+         <div class="notification is-danger" role="alert">
+           <button class="delete"></button>
+             <%= error %>
+         </div>
+       <% } %>
+     <% if(success && success.length > 0) { %>
+        <div class="notification is-primary" role="alert">
+          <button class="delete"></button>
+             <%= success %>
+         </div>
+       <% } %>
+  </section>

@@ -1,0 +1,99 @@
+/* global */
+
+html,
+body {
+  height: 100%;
+}
+
+.hero.is-success {
+  background: white;
+}
+
+.event-box {
+  margin-top: 20px;
+}
+
+.container .columns {
+  margin: 3rem 0;
+}
+
+#notification {
+  -webkit-transition: display 2s; /* Safari */
+  transition: display 2s;
+}
+
+.hide {
+  display: none;
+}
+
+.container.content {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  max-width: 1100px;
+}
+
+#page-nav {
+  margin-bottom: 5px;
+}
+
+.box {
+  margin: 1rem;
+}
+
+.nav-active {
+  border-bottom-color: #dbdbdb;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+/* Contacts Page */
+
+#contacts-page.columns {
+  border-style: solid 2px grey;
+}
+
+#contacts-table {
+  margin: 0 auto;
+  border-style: solid 2px grey;
+}
+
+.add-contact-button {
+  float: right;
+  padding-bottom: 1rem;
+}
+
+/* form */
+.contact-form {
+  max-width: 400px;
+}
+
+/*homepage */
+.footer_logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* contacts */
+
+#contact-page .column {
+  padding: 0rem;
+}
+
+#contact-page {
+  margin-top: 0px;
+}
+
+#contacts-list-view {
+  border-right: 1px solid #dbdbdb;
+  border-left: 1px solid #dbdbdb;
+}
+
+#contact-card {
+  padding-left: 0.75rem;
+}
